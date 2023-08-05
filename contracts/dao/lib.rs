@@ -157,7 +157,7 @@ pub mod dao {
             //     ink::env::call::ExecutionInput::new(ink::env::call::Selector::new(ink::selector_bytes!("PSP22::total_supply")))
             // )
             // .returns::<Balance>()
-            // .try_invoke();
+            // .try_invoke().unwrap();
             // weight = weight/total_supply.unwrap().unwrap();
 
             match vote {

@@ -184,7 +184,7 @@ pub mod dao {
     mod tests {
         use super::*;
 
-        const ONE_MINUTE:u64 = 60;
+        const ONE_MINUTE:u64 = 1;
 
         fn create_contract(initial_balance: Balance) -> Governor {
             let accounts: ink::env::test::DefaultAccounts<ink::env::DefaultEnvironment> = default_accounts();
